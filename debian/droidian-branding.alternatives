@@ -1,0 +1,17 @@
+Name: vendor-logos
+Link: /usr/share/images/vendor-logos
+Alternative: /usr/share/droidian-branding/droidian-logos
+Dependents:
+  /usr/share/icons/vendor/64x64/emblems/emblem-vendor.png emblem-vendor-64 /usr/share/icons/droidian/64x64/emblems/emblem-droidian.png
+  /usr/share/icons/vendor/128x128/emblems/emblem-vendor.png emblem-vendor-128 /usr/share/icons/droidian/128x128/emblems/emblem-droidian.png
+  /usr/share/icons/vendor/256x256/emblems/emblem-vendor.png emblem-vendor-256 /usr/share/icons/droidian/256x256/emblems/emblem-droidian.png
+  /usr/share/icons/vendor/scalable/emblems/emblem-vendor.svg emblem-vendor-scalable /usr/share/icons/droidian/scalable/emblems/emblem-droidian.svg
+  /usr/share/icons/vendor/64x64/emblems/emblem-vendor-symbolic.png emblem-vendor-symbolic-64 /usr/share/icons/desktop-base/64x64/emblems/emblem-debian-symbolic.png
+  /usr/share/icons/vendor/128x128/emblems/emblem-vendor-symbolic.png emblem-vendor-symbolic-128 /usr/share/icons/desktop-base/128x128/emblems/emblem-debian-symbolic.png
+  /usr/share/icons/vendor/256x256/emblems/emblem-vendor-symbolic.png emblem-vendor-symbolic-256 /usr/share/icons/desktop-base/256x256/emblems/emblem-debian-symbolic.png
+  /usr/share/icons/vendor/scalable/emblems/emblem-vendor-symbolic.svg emblem-vendor-symbolic-scalable /usr/share/icons/desktop-base/scalable/emblems/emblem-debian-symbolic.svg
+  /usr/share/icons/vendor/64x64/emblems/emblem-vendor-white.png emblem-vendor-white-64 /usr/share/icons/desktop-base/64x64/emblems/emblem-debian-white.png
+  /usr/share/icons/vendor/128x128/emblems/emblem-vendor-white.png emblem-vendor-white-128 /usr/share/icons/desktop-base/128x128/emblems/emblem-debian-white.png
+  /usr/share/icons/vendor/256x256/emblems/emblem-vendor-white.png emblem-vendor-white-256 /usr/share/icons/desktop-base/256x256/emblems/emblem-debian-white.png
+  /usr/share/icons/vendor/scalable/emblems/emblem-vendor-white.svg emblem-vendor-white-scalable /usr/share/icons/desktop-base/scalable/emblems/emblem-debian-white.svg
+Priority: 70

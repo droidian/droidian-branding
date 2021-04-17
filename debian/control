@@ -1,0 +1,18 @@
+Source: droidian-branding
+Maintainer: Eugenio Paolantonio (g7) <eugenio@droidian.org>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 13),
+               make,
+               librsvg2-bin,
+               optipng,
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian/droidian-branding
+Vcs-Git: https://github.com/droidian/droidian-branding.git
+
+Package: droidian-branding
+Architecture: all
+Pre-Depends: base-files,
+             desktop-base,
+Description: Branding for Droidian
+ This package contains some branding bits for Droidian.

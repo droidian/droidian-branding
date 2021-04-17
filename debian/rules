@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_installalternatives:
+
+	# Currently we only care to change the emblem - so let's keep the original
+	# Debian logos so that update-alternatives is happy
+	# This is dirty hack to allow dh_installalternatives to not bailout
+	# when encountering a symlink...
+	touch $(CURDIR)/debian/droidian-branding/usr/share/droidian-branding/droidian-logos
+
+	dh_installalternatives
+
+	ln -sf /usr/share/desktop-base/debian-logos $(CURDIR)/debian/droidian-branding/usr/share/droidian-branding/droidian-logos
+
