@@ -12,7 +12,7 @@ Vcs-Git: https://github.com/droidian/droidian-branding.git
 
 Package: droidian-branding
 Architecture: all
-Pre-Depends: base-files,
-             desktop-base,
+Pre-Depends: desktop-base,
+             droidian-release,
 Description: Branding for Droidian
  This package contains some branding bits for Droidian.
