@@ -5,6 +5,7 @@
     <!-- don't include words such as "wallpaper" (avoids translations) -->
     <name>Droidian Emerald</name>
     <filename>/usr/share/backgrounds/droidian/droidian.xml</filename>
+    <filename-dark>/usr/share/backgrounds/droidian/droidian.xml</filename>
     <options>zoom</options>
     <pcolor>#ffffff</pcolor>
     <scolor>#000000</scolor>
